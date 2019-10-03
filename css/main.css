@@ -1,0 +1,57 @@
+#background{
+    background-image: url(../images/bg-login.jpg);
+    background-size: cover;
+    opacity:  rgba(0,0,1,0.1);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Buttons and fonts */
+.btn-yellow{
+    background: #ffff00;
+    box-shadow: 0.5px;
+    border-radius: 5px;
+}
+
+a{
+    color: #fff;
+}
+/* end Buttons and fonts */
+
+/* Login */
+.logo{
+    width: 200px;
+}
+
+.title-login{
+    text-align: center;
+}
+
+.container{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-text:hover{
+    color: #fff;
+
+}
+/* end Login */
+
+/* MediaQuery for Login */
+@media (max-width: 700px) { 
+    .container{
+        width: 100%;
+    }
+ }
+/* End MediaQuery for Login */
